@@ -53,3 +53,28 @@ body {
         @include bottom-div;
     }
 }
+
+.happening {
+    @include h1-style;
+    outline: red dashed 1px;
+    margin: 70px 0px 50px 100px;
+}
+.section2 {
+    display: flex;
+    margin-left: 100px;
+
+    .img-div1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 130px;
+        height: 900px;
+    }
+
+    .img-div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 450px;
+    }
+}
