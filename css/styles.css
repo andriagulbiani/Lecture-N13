@@ -69,11 +69,10 @@ body {
 .index-ul {
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 .index-ul li {
   padding: 20px 35px;
-  outline: red dashed 1px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -85,7 +84,6 @@ body {
   font-weight: 700;
   font-size: 38px;
   line-height: 28.13px;
-  outline: red dashed 1px;
   margin: 40px 0px 25px 100px;
 }
 
@@ -103,7 +101,6 @@ body {
 .index-section1 .tranding-div1 .top-div {
   border-radius: 10px 10px 0px 0px;
   height: 186px;
-  outline: red dashed 1px;
 }
 .index-section1 .tranding-div1 .top-div .dolore {
   font-family: "Roboto", sans-serif;
@@ -117,7 +114,6 @@ body {
 .index-section1 .tranding-div1 .bottom-div {
   border-radius: 0px 0px 10px 10px;
   height: 171px;
-  outline: orangered dashed 1px;
   background-color: white;
 }
 .index-section1 .tranding-div1 .bottom-div .description-p1 {
@@ -147,7 +143,6 @@ body {
 .index-section1 .tranding-div2 .top-div {
   border-radius: 10px 10px 0px 0px;
   height: 186px;
-  outline: red dashed 1px;
 }
 .index-section1 .tranding-div2 .top-div .dolore {
   font-family: "Roboto", sans-serif;
@@ -161,7 +156,6 @@ body {
 .index-section1 .tranding-div2 .bottom-div {
   border-radius: 0px 0px 10px 10px;
   height: 171px;
-  outline: orangered dashed 1px;
   background-color: white;
 }
 .index-section1 .tranding-div2 .bottom-div .description-p1 {
@@ -191,7 +185,6 @@ body {
 .index-section1 .tranding-div3 .top-div {
   border-radius: 10px 10px 0px 0px;
   height: 186px;
-  outline: red dashed 1px;
 }
 .index-section1 .tranding-div3 .top-div .dolore {
   font-family: "Roboto", sans-serif;
@@ -205,7 +198,6 @@ body {
 .index-section1 .tranding-div3 .bottom-div {
   border-radius: 0px 0px 10px 10px;
   height: 171px;
-  outline: orangered dashed 1px;
   background-color: white;
 }
 .index-section1 .tranding-div3 .bottom-div .description-p1 {
@@ -232,7 +224,6 @@ body {
   font-weight: 700;
   font-size: 38px;
   line-height: 28.13px;
-  outline: red dashed 1px;
   margin: 70px 0px 50px 100px;
 }
 
@@ -277,7 +268,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 45px;
 }
 .footer img {
