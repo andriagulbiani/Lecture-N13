@@ -17,11 +17,39 @@ body {
     }
 }
 
+.tranding-h1 {
+    @include h1-style;
+    outline: red dashed 1px;
+    margin: 40px 0px 25px 100px;
+    
+}
+
 .index-section1 {
-    h1 {
-        @include h1-style;
-        outline: red dashed 1px;
-        margin: 40px 0px 25px 100px;
-        
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+    .tranding-div1 {
+        .top-div {
+            background-image: url(../images/beach.svg)
+        }
+        @include top-div;
+        @include bottom-div;
+    }
+
+    .tranding-div2 {
+        .top-div {
+            background-image: url(../images/sea.svg)
+        }
+        @include top-div;
+        @include bottom-div;
+    }
+
+    .tranding-div3 {
+        .top-div {
+            background-image: url(../images/iceland.svg)
+        }
+        @include top-div;
+        @include bottom-div;
     }
 }

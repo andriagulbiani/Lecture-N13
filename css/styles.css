@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  overflow: hidden;
+  max-width: 1440px;
 }
 
 ol, ul {
@@ -80,11 +80,149 @@ body {
   line-height: 12.9px;
 }
 
-.index-section1 h1 {
+.tranding-h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 38px;
   line-height: 28.13px;
   outline: red dashed 1px;
   margin: 40px 0px 25px 100px;
+}
+
+.index-section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.index-section1 .tranding-div1 {
+  width: 360px;
+}
+.index-section1 .tranding-div1 .top-div {
+  background-image: url(../images/beach.svg);
+}
+.index-section1 .tranding-div1 .top-div {
+  border-radius: 10px 10px 0px 0px;
+  height: 186px;
+  outline: red dashed 1px;
+}
+.index-section1 .tranding-div1 .top-div .dolore {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 23.44px;
+  padding-top: 32px;
+  padding-left: 41px;
+}
+.index-section1 .tranding-div1 .bottom-div {
+  border-radius: 0px 0px 10px 10px;
+  height: 171px;
+  outline: orangered dashed 1px;
+  background-color: white;
+}
+.index-section1 .tranding-div1 .bottom-div .description-p1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8A8787;
+  line-height: 30px;
+  max-width: 300px;
+  padding: 55px 0px 0px 25px;
+}
+.index-section1 .tranding-div1 .bottom-div .description-p2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8A8787;
+  line-height: 30px;
+  max-width: 300px;
+  padding-left: 25px;
+}
+.index-section1 .tranding-div2 {
+  width: 360px;
+}
+.index-section1 .tranding-div2 .top-div {
+  background-image: url(../images/sea.svg);
+}
+.index-section1 .tranding-div2 .top-div {
+  border-radius: 10px 10px 0px 0px;
+  height: 186px;
+  outline: red dashed 1px;
+}
+.index-section1 .tranding-div2 .top-div .dolore {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 23.44px;
+  padding-top: 32px;
+  padding-left: 41px;
+}
+.index-section1 .tranding-div2 .bottom-div {
+  border-radius: 0px 0px 10px 10px;
+  height: 171px;
+  outline: orangered dashed 1px;
+  background-color: white;
+}
+.index-section1 .tranding-div2 .bottom-div .description-p1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8A8787;
+  line-height: 30px;
+  max-width: 300px;
+  padding: 55px 0px 0px 25px;
+}
+.index-section1 .tranding-div2 .bottom-div .description-p2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8A8787;
+  line-height: 30px;
+  max-width: 300px;
+  padding-left: 25px;
+}
+.index-section1 .tranding-div3 {
+  width: 360px;
+}
+.index-section1 .tranding-div3 .top-div {
+  background-image: url(../images/iceland.svg);
+}
+.index-section1 .tranding-div3 .top-div {
+  border-radius: 10px 10px 0px 0px;
+  height: 186px;
+  outline: red dashed 1px;
+}
+.index-section1 .tranding-div3 .top-div .dolore {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 23.44px;
+  padding-top: 32px;
+  padding-left: 41px;
+}
+.index-section1 .tranding-div3 .bottom-div {
+  border-radius: 0px 0px 10px 10px;
+  height: 171px;
+  outline: orangered dashed 1px;
+  background-color: white;
+}
+.index-section1 .tranding-div3 .bottom-div .description-p1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8A8787;
+  line-height: 30px;
+  max-width: 300px;
+  padding: 55px 0px 0px 25px;
+}
+.index-section1 .tranding-div3 .bottom-div .description-p2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #8A8787;
+  line-height: 30px;
+  max-width: 300px;
+  padding-left: 25px;
 }/*# sourceMappingURL=styles.css.map */
